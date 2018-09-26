@@ -2,6 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+/* Body styling */
 body {
   margin: 0;
   padding: 0;
@@ -13,42 +15,48 @@ body {
   height: 800px;
 }
 
+/* Nav bar styling */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-size: 100%;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    font-family: 'Patua One', cursive;
-    background-size: 100%;
-    text-align: center;
-    background-color: black;
-    padding: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-size: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  font-family: 'Patua One', cursive;
+  background-size: 100%;
+  text-align: center;
+  background-color: black;
+  padding: 20px;
 }
 
+/* Nav bar table styling */
 li {
-    display: inline-table;
+  display: inline-table;
 }
 
+/* Nav bar styling */
 li a {
-    display: table-row;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: table-row;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+/* Nav bar Hover styling */
 li a:hover {
-    background-color: #111;
+  background-color: #111;
 }
 
+/* Nav bar active color styling */
 .active {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Home "About myself styling" */
 .box {
   background: rgba(0, 0, 0, 0.5);
   padding: 40px;
@@ -58,12 +66,14 @@ li a:hover {
   font-family: 'Patua One', cursive;
 }
 
+/* Home content image */
 .box-img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
 }
 
+/* Home content "about myself" */
 .box h1 {
   font-size: 40px;
   letter-spacing: 4px;
@@ -82,29 +92,42 @@ li a:hover {
   text-align: center;
 }
 
-#About {
-  background-image: url(../img/b3.jpg);
+.grid-container {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  background-image: url(../img/b6.jpg);
   color: white;
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
+  font-family: 'Basic', sans-serif;
+
+
   padding: 40px;
   background-size: cover;
   position: relative;
-}
 
-.Details {
-  display: block;
-  width: auto;
+
+/* Personl Details starts here */
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 20px;
+  font-size: 30px;
+
   margin: 3%;
   background: rgba(0, 0, 0, 0.5);
-  padding: 5px;
+
   transition: transform .2s;
+  font-size: 0.9em;
 }
 
-.Details:hover {
+.grid-item:hover {
   transform: scale(1.1);
-}
+}/* Personl details ends here */
 
+
+/* header and footer styling */
 header, footer {
   background-size: 100%;
   text-align: center;
@@ -115,30 +138,36 @@ header, footer {
   padding: 20px;
 }
 
+.Contact:hover {
+  background-color: rgba(255, 255, 255, 0.8)
+}
+
+
+/* Responsiveness */
 .media {
-    padding: 20px;
+  padding: 20px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .media
+  .media
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .media
+  .media
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .media
+  .media
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .media
+  .media
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .media
+  .media
 }

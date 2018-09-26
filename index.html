@@ -1,95 +1,140 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Basic" rel="stylesheet">
 
-    <title></title>
 
-    <nav>
+      <title></title>
 
-      <ul class="nav">
-        <li><a class="active" href="#Home">Home</a></li>
-        <li><a class="active" href="#About">About</a></li>
-        <li><a class="active" href="#Contact">Contact</a></li>
-      </ul>
 
-    </nav>
+<!-- Nav Bar Starts here -->
+      <nav>
+
+        <ul class="nav">
+          <li><a class="active" href="#Home">Home</a></li>
+          <li><a class="active" href="#About">About</a></li>
+          <li><a class="active" href="#Contact">Contact</a></li>
+        </ul>
+
+      </nav>
+<!-- Nav Bar ends here -->
+
 
   </head>
+
+<!-- Home content starts here "about myself" -->
   <body>
-<div class="box">
-  <img src="img/miguel.jpg" alt=" " width="400px" height="400px" class="box-img">
+    <div class="box">
+      <img src="img/miguel.jpg" alt=" " width="400px" height="400px" class="box-img">
 
-   <h1>Miguel Kroukamp</h1>
+      <h1>Miguel Kroukamp</h1>
 
-     <h5>Web Developer - Graphic Designer</h5>
+      <h5>Web Developer - Graphic Designer</h5>
 
-        <p>I consider myself an intelligent, stable and adaptable person, with a natural flair for hard work. <br>
-            I am a level headed, motivated person who is always able to work well with others and eager to learn new skills. <br>
-              I am willing to face challenges in order to increase my abilities and prospects. <br>
-                I can assure you of my loyalty to my employer and dedication to tasks assigned to me.</p>
+      <p>I consider myself an intelligent, stable and adaptable person, with a natural flair for hard work. <br>
+        I am a level headed, motivated person who is always able to work well with others and eager to learn new skills. <br>
+        I am willing to face challenges in order to increase my abilities and prospects. <br>
+        I can assure you of my loyalty to my employer and dedication to tasks assigned to me.</p>
+    </div>
+<!-- home content ends here -->
 
 
-</div>
+<!-- Cv information starts here. Placed in grids -->
 
-<article id="About">
-      <div class="Details">
-        <h2>Personal Details</h2>
-          <p> <h3>Surname:</h3> Kroukamp </p>
-          <p> <h3>First Names:</h3> Miguel Jason </p>
-          <p> <h3>Address:</h3> 52 Plover Walk, Sunbird Park </p>
-      </div>
 
-        <div class="Details">
-          <h2>Educational Qualifications</h2>
-            <p> Matriculated 2012 </p>
-            <p> Graphic designer 2016 - 2017 </p>
-            <p> Junior Web developer 2018 - 2019 </p>
+    <article id="About">
+      <div class="grid-container">
+
+        <!-- Personal Details -->
+        <div class="grid-item">
+          <h2>Personal Details</h2>
+          <p> <h4>Surname:</h4> Kroukamp </p>
+          <p> <h4>First Names:</h4> Miguel Jason </p>
+          <p> <h4>Address:</h4> 52 Plover Walk, Sunbird Park </p>
         </div>
 
-        <div class="Details">
+        <!-- Educational Qualifications -->
+        <div class="grid-item">
+          <h2>Educational Qualifications</h2>
+          <p> Matriculated 2012 </p>
+          <p> Graphic designer 2016 - 2017 </p>
+          <p> Junior Web developer 2018 - 2019 </p>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="grid-item">
           <h2>Work Experience</h2>
             <p> Intern (Adminstration) 2013 - 2014 <br>
-                "Department of Human Settlements"</p>
-                  <p> <h4>Duties:</h4>
-                      Filing and record keeping <br>
-                      Collecting and distributing documents <br>
-                      Assisting building inspectors on site <br>
-                      MS office applications compliant <br>
-                      Liasing with estate agents on sale of properties</p> <br>
+                  "Department of Human Settlements"</p>
+                    <p> <h4>Duties:</h4>
+                        Filing and record keeping <br>
+                          Collecting and distributing documents <br>
+                            Assisting building inspectors on site <br>
+                              MS office applications compliant <br>
+                                Liasing with estate agents on sale of properties</p> <br>
             <p> Sales Assistant 2015 <br>
-                "Total Sports"</p>
-                  <p> <h4>Duties:</h4>
-                      Sales <br>
-                      Canvasing (opening accounts)</p>
-
-
+                  "Total Sports"</p>
+                    <p> <h4>Duties:</h4>
+                        Sales <br>
+                          Canvasing (opening accounts)</p>
         </div>
 
-
-        <div class=Details>
+        <!-- Hobbies and Interests -->
+        <div class=grid-item>
           <h2>Hobbies and Interests</h2>
-            <p> Beat Making/Production (Fruity Loops) </p>
-            <p> Illustrations and Sneaker Designing (Adobe) </p>
-            <p> Music - Hip Hop </p>
+              <p> Beat Making/Production (Fruity Loops) </p>
+                <p> Illustrations and Sneaker Designing (Adobe) </p>
+                  <p> Music - Hip Hop </p>
+
+                  <!-- skills -->
+                  <h2>Skills</h2>
+                    <p> HTML </p>
+                      <p> JAVA SCRIPT </p>
+                        <p> CSS </p>
+                          <p> GIT </p>
+                            <p> ADOBE (design programs) </p>
+                            <p> SKECTHING</p>
         </div>
-</article>
+      </div>
+    </article>
+<!-- CV information ends here -->
 
+
+<!-- Footer starts here -->
     <footer>
-      <p> <h2 id="Contact">Contact</h2>
+      <p> <h2 id="Contact">Contact:</h2>
 
-          <h3>Whatsapp</h3>
-          <h3>Instagram</h3>
-          <h3>Twitter</h3>
+          <p><h3>Whatsapp</h3> 073 991 4247</p>
+          <p>
+            <h3>
+              <a href="https://instagram.com/youngmickey90skid/?hl=en"
+                 target="_blank"
+                 style="text-decoration:
+                 none; color: white;">
+                 Instagram
+              </a>
+            </h3>
+          </p>
+          <p>
+            <h3>
+              <a href="https://twitter.com/miguel_kroukamp"
+                 target="_blank"
+                 style="text-decoration: none;
+                 color: white;">
+                 Twitter</a>
+            </h3>
+          </p>
 
       </p>
-
-
     </footer>
+<!-- Footer ends here -->
+
+
   </body>
 </html>
