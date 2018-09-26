@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/background6.png) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    font-family: 'Patua One', cursive;
+    background-size: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+li {
+    display: inline-table;
+}
+
+li a {
+    display: table-row;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: 'Patua One', cursive;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.box p {
+  text-align: center;
+}
+
+#About {
+  background-image: url(../img/b3.jpg);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-size: cover;
+  position: relative;
+}
+
+.Details {
+  display: block;
+  width: auto;
+  margin: 3%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  transition: transform .2s;
+}
+
+.Details:hover {
+  transform: scale(1.1);
+}
+
+header, footer {
+  background-size: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Patua One', cursive;
+  border: 2px;
+  background-color: black;
+  padding: 20px;
+}
+
+.media {
+    padding: 20px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .media
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .media
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .media
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .media
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .media
+}
